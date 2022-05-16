@@ -1,5 +1,5 @@
 # main image
-FROM php:7.4-fpm
+FROM php:8.1.6-fpm
 
 # install prerequisites
 RUN DEBIAN_FRONTEND=noninteractive \
