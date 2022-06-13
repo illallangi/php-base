@@ -1,5 +1,5 @@
 # main image
-FROM php:7.4-fpm
+FROM php:7.4.30-fpm
 
 # install prerequisites
 RUN DEBIAN_FRONTEND=noninteractive \
@@ -19,7 +19,6 @@ RUN DEBIAN_FRONTEND=noninteractive \
     locales=2.31-13+deb11u3 \
     musl=1.2.2-1 \
     nginx=1.18.0-6.1 \
-    xz-utils=5.2.5-2 \
   && \
   apt-get clean \
   && \
